@@ -32,7 +32,14 @@
 23  	commit -m "Paso 23"
 24	checkout develop
 25	merge feature/Ticket220		estando en develop
-26	merge feature/Ticket221		estando en develop
+26	merge feature/Ticket221		estando en develop, error fuera de sincronia
+28	commit -m "Paso 28"
+29	tag
+30	push				Con sourcetree desmarcar opcion push all tags
+31 	checkout feature/Ticket222
+32	merge develop			estando en feature/Ticket222
+
+
 
 
 
