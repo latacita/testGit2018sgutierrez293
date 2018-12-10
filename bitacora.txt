@@ -38,7 +38,9 @@
 30	push				Con sourcetree desmarcar opcion push all tags
 31 	checkout feature/Ticket222
 32	merge develop			estando en feature/Ticket222
-
+34	commit -m "Paso 34"
+35	merge feature/Ticket222		estando en develop
+36	merge develop			estando en master
 
 
 
