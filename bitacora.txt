@@ -10,3 +10,36 @@
 03	add
 	commit -m "paso 3"
 	push
+05	commit -m "Paso 05"
+06	branch develop
+07	branch feature/Ticket220
+	checkout feature/Ticket220
+09	commit -m "Paso 09"
+10 	checkout develop
+11	branch feature/Ticket221
+	checkout feature/Ticket221
+
+13	stash
+	checkout feature/Ticket220
+15	commit -m "Paso 15"
+16	checkout feature/Ticket221
+17	stash aply
+18	commit -m "Paso 18"
+19	checkout develop
+20	branch feature/Ticket222
+21	checkout feature/Ticket220	
+22					fast-forward
+23  	commit -m "Paso 23"
+24	checkout develop
+25	merge feature/Ticket220		estando en develop
+26	merge feature/Ticket221		estando en develop, error fuera de sincronia
+28	commit -m "Paso 28"
+29	tag
+30	push				Con sourcetree desmarcar opcion push all tags
+31 	checkout feature/Ticket222
+32	merge develop			estando en feature/Ticket222
+
+
+
+
+
