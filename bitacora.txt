@@ -10,3 +10,13 @@
 03	add
 	commit -m "paso 3"
 	push
+05	commit -m "Paso 05"
+06	branch develop
+07	branch feature/Ticket220
+	checkout feature/Ticket220
+09	commit -m "Paso 09"
+10 	checkout develop
+11	branch feature/Ticket221
+	checkout feature/Ticket221
+15	commit -m "Paso 15"
+16	checkout feature/Ticket221
