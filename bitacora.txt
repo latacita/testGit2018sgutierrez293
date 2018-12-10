@@ -18,11 +18,17 @@
 10 	checkout develop
 11	branch feature/Ticket221
 	checkout feature/Ticket221
+
 13	stash
 	checkout feature/Ticket220
+15	commit -m "Paso 15"
+16	checkout feature/Ticket221
 17	stash aply
 18	commit -m "Paso 18"
 19	checkout develop
 20	branch feature/Ticket222
 21	checkout feature/Ticket220	
 22					fast-forward
+
+
+
